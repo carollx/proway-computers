@@ -1,0 +1,69 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, b, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer {
+    /* gray rgb(87, 87, 87)
+    light-gray rgb(123, 123, 123)
+    light-gray 2 - rgb(205, 205, 205)
+    blue rgb(3, 24, 131)
+    orange rgb(240, 80, 0)
+    */
+    background-color: rgb(219, 219, 219);
+    color: rgb(87, 87, 87);
+    font-size: 18px;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    padding: 10px;
+}
+
+.footer_copyright {
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(244, 244, 244);
+    font-weight: bold;
+    padding: 20px;
+    color: rgb(87, 87, 87);
+}
+
+.footer_title {
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(3, 24, 131);
+    margin-bottom: 5px;
+}
+
+.footer_about-text {
+    width: 400px;
+    text-align: justify;
+}
+
+.footer fa-icon {
+    color: rgb(240, 80, 0);
+}
+
+.footer li {
+    margin: 10px 0;
+}

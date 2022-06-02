@@ -1,0 +1,53 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, b, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.search-form {
+    height: 40px;
+    width: 580px;
+    display: flex;
+}
+
+.search-form input {
+    box-sizing: border-box;
+    height: 56px;
+    padding: 20px;
+    flex: 1;
+    background-color: rgb(198, 198, 198);
+    color: rgb(87, 87, 87);
+    border: none;
+    transition: all .3s ease-in-out;
+    font-size: 22px;
+}
+
+.search-form input:focus {
+    background-color: rgb(3, 24, 131);
+    outline: none;
+    color: #fff;
+}
+
+.search-form button {
+    width: 56px;
+    height: 56px;
+    background-color: rgb(3, 24, 131);
+    border: none;
+    color: #fff;
+    font-size: 22px;
+}
